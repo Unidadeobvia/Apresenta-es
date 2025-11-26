@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Detector de Tipos — JS</title>
+</head>
+<body>
+  <h1>Detector de Tipos</h1>
+  <button onclick="detectar(42)">Número</button>
+  <button onclick="detectar('Olá')">String</button>
+  <button onclick="detectar(true)">Boolean</button>
+  <button onclick="detectar([1,2,3])">Array</button>
+  <button onclick="detectar({ nome: 'Ana' })">Objeto</button>
+  <button onclick="detectar(null)">Null</button>
+  <button onclick="detectar(undefined)">Undefined</button>
+
+  <pre id="output"></pre>
+
+  <script src="script.js"></script>
+</body>
+</html>
